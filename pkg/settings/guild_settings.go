@@ -30,7 +30,7 @@ type GuildSettings struct {
 
 func MakeGuildSettings(prefix string) *GuildSettings {
 	if prefix == "" {
-		prefix = ".au"
+		prefix = ".ua"
 	}
 	return &GuildSettings{
 		CommandPrefix:            prefix,
